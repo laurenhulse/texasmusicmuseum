@@ -212,6 +212,7 @@ ul li:hover {
     display: block;
     margin: auto;
     margin-bottom: 5%;
+    margin-top: -10%;
     background-color: #201b5a;
     width: 400px;
     height: 225px;
