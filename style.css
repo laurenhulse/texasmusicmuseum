@@ -1,0 +1,302 @@
+.navlogo {
+    max-width: 9%;
+    min-width: 115px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.navbar {
+    background-color: #201b5a;
+}
+
+.nav-link{
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+   }
+
+.navbar-light .navbar-toggler {
+    border-color: white;
+}
+/* 
+.navbar-light .navbar-toggler-icon {
+    background-image: url();
+}
+                                        */
+
+a {
+    text-align: right;
+    color: white;
+}
+
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #e52625;
+}
+
+
+.collapse:not(.show) {
+    position: absolute;
+    right: 0;
+    padding: 15px;
+}
+
+.texaspic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    max-height: 500px;
+    margin-top: 100px;
+}
+
+.title{
+    font-family: 'Ubuntu';
+    background-color: #201b5a;
+    color: white;
+    text-align: center;
+    font-size: 22pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0rem;
+    
+}
+.george{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+}
+.tourmap{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h2{
+    font-family: 'Ubuntu';
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+
+}
+p{
+    font-family: 'Arsenal';
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 14%;
+}
+.btn{
+    background-color: #e52625;
+    color: white;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 20%;
+    min-width: 125px;
+}
+.spacingbelow{
+    margin-bottom: 8%;
+}
+footer{
+    font-family: 'Ubuntu';
+    background-color: #e52625;
+    color: white;
+    text-align: center;
+    font-size: 22pt;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    margin-top: 2%;
+    bottom:0;
+    width: 100%;
+}
+
+.bottom{
+    position: fixed absolute;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+
+
+.calendar {
+  position: relative;
+  margin-top: 5%;
+  display: block;
+  margin: auto;
+  background-color: #e52625;
+  width: 400px;
+  height: 290px;
+  box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+}
+.month{
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  position: relative;
+  font-size: 2.4em;
+  -webkit-margin-before: 0;
+}
+.fa-bars {
+  position: relative;
+  display: block;
+  color: white;
+  top: -65px;
+  left: 10px;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  transition: all .3s linear;
+  cursor: pointer;
+}
+.fa-bars:hover {
+  color: rgba(10, 6, 53, 0.777);
+}
+.unordered {
+  position: relative;
+  list-style-type: none;
+  top: 15px;
+  margin: auto;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.event-date{
+  background-color: #201b5a;
+}
+
+.unordered li {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  margin-right: 2px;
+  margin-top: 2px;
+  text-align: center;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  cursor: pointer;
+}
+ul li:hover {
+  color: white;
+  background-color:#453e8d77;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  transition: all .3s linear;
+}
+.btn-calendar {
+    background-color: #201b5a;
+    color: white;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 20%;
+    min-width: 125px;
+}
+.pagetwo{
+    margin-top: 5%;
+    margin-bottom:10%;
+}
+.details{
+    position: relative;
+    margin-top: 5%;
+    display: block;
+    margin: auto;
+    margin-bottom: 5%;
+    background-color: #201b5a;
+    width: 400px;
+    height: 225px;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    color: white;
+    text-align: center;
+}
+.moreinfo{
+    background-color: #e52625;
+    color: white;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 20%;
+    min-width: 125px;
+}
+
+.morebox{
+    background-color: #e52625;
+    color: white;
+    display: block;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 80%;
+    min-width: 125px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+.jab{
+    width:80%;
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buytickets{
+    background-color: #201b5a;
+    color: white;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 20%;
+    min-width: 125px;
+}
+.jabbio{
+    color: #201b5a;
+    text-align: left;
+}
+
+h3{
+    font-family: 'Ubuntu', sans-serif;
+}
+h4{
+    font-family: 'Arsenal', sans-serif;
+    font-size: 16pt;
+}
+
+.donation{
+    background-color: #201b5a;
+    color: white;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 80%;
+    min-width: 125px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.barcode{
+    width: 70%;
+    background-color: white;
+    padding: 4%;
+    border-radius: 30px;
+
+}
